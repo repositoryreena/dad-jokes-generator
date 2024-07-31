@@ -24,10 +24,17 @@ h1{
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
 button{
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
     color: green;
     border: none;
     font-weight: bold;
     width: 250px;
     height: 30px;
+    background: linear-gradient(135deg, pink, transparent);
+}
+
+button:hover{
+    background-color: white;
+    cursor:pointer;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
 }
