@@ -1,0 +1,33 @@
+html, body{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+    font-family: sans-serif;
+    background: linear-gradient(135deg, pink, transparent);
+}
+h1{
+    font-family: Impact;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 10px;
+    flex-direction: column;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+button{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+    color: green;
+    border: none;
+    font-weight: bold;
+    width: 250px;
+    height: 30px;
+}
